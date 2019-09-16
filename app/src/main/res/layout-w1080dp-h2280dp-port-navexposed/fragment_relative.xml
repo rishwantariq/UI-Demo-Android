@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/relative"
+    tools:context=".Relative">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="3dp"
+        android:background="#F2F1F1F1"
+        app:itemIconSize="28sp"
+        app:itemIconTint="@color/colorAccent"
+        app:menu="@menu/header"
+
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/username"
+            android:textAlignment="gravity"
+            android:textColor="#F0000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="-1dp"
+        app:itemIconSize="33sp"
+        app:itemIconTint="@color/colorAccent"
+        app:menu="@menu/bttom_bar">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_alignTop="@+id/header"
+        android:layout_alignEnd="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="273dp"
+        android:layout_marginBottom="447dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/man" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#D2DBDBDB"
+        android:text="@string/edit_profile"
+        android:textAllCaps="false"
+        android:textColor="#FD000000" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="94dp"
+        android:text="@string/_6530"
+        android:textColor="#090808"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/_217"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/_3491"
+        android:textColor="#FC000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/posts"
+        android:textColor="#E2A8A8A8"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="98dp"
+        android:text="followers"
+        android:textColor="#C6A8A8A8"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="10dp"
+        android:text="following"
+        android:textColor="#DFC0C0C0"
+        android:textSize="18sp" />
+
+</RelativeLayout>

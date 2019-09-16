@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/grid"
+        android:icon="@drawable/grid"
+        android:title="">
+    </item>
+
+
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/list"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/loc"
+        android:icon="@drawable/loc"
+        android:title="">
+    </item>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="">
+    </item>
+
+
+</menu>

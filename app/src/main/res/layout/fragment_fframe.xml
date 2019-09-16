@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#1B1B1B"
+    tools:context=".Fframe">
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/cirlce"
+        android:ems="8"
+        android:text="    upcoming shows"
+        android:textAlignment="gravity"
+
+        android:textColor="#F7FFFFFF"
+        android:textFontWeight="1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1B1B1B"
+            android:src="@drawable/nf" />
+    </com.google.android.material.navigation.NavigationView>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4D4D4D"
+        app:tabIndicatorColor="#FF9800">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="upcoming" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Releases" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old releases" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <ImageView
+        android:layout_marginTop="200dp"
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/mov1" />
+
+    <ImageView
+        android:layout_marginTop="220dp"
+        android:id="@+id/imageView20"
+        android:layout_width="428dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mov3" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/image_pressable" />
+
+
+    <Button
+        android:id="@+id/buttonClick2"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/cirlce"
+        android:text="Select"
+        android:textFontWeight="1">
+
+    </Button>
+
+</FrameLayout>
